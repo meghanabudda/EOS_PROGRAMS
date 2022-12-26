@@ -1,0 +1,30 @@
+# Day2
+- stack,stack pointer,stack frame
+
+    - Return address
+    - optionally arguments
+    - Local Variables
+- How are arguments passed to function?
+    - Registers or stack
+    - ARM => Args => R0-R3
+    - ARM => more than 4 args => stack
+- Frame Pointer
+    - It is used access the args and local variables.
+    - Every stack frame has different frame pointer.
+- Sections
+    - .text => Instructions
+    - .data => Global Initialized Variable
+    - .bss  => Global non-initialized Variables
+    - Heap  => Dynamic Memory allocation
+    - Stack => Local variables,Return address,Arguments
+- Program
+    - Dormant Entity/Primary 
+    - Hard Disk/Secondary Storage
+- Process
+    - Active Entity
+    - Program under execution
+- Process 
+    - ID(Process ID)
+- Process Tree
+    - PID(get ID)
+    - Parent ID (.get PID)
